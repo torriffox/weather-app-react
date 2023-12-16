@@ -39,12 +39,23 @@
   font-weight: 400;
 }
 
+a.unit {
+  position: relative;
+  top: 0px !important;
+  padding: 0px;
+}
+
 .Weather .unit {
   color: var(--main-text-color);
   font-size: 16px;
   font-weight: 400;
   position: relative;
-  top: -35px;
+  top: -34px;
   margin-left: 5px;
-  line-height: 1;
+  line-height: 16px;
+  text-decoration: none;
+}
+
+.Weather .activeUnit {
+  color: blue;
 }
