@@ -3,7 +3,6 @@ import axios from "axios";
 
 import "./Weather.css";
 import WeatherInfo from "./WeatherInfo.js";
-import FormattedDate from "./FormattedDate.js";
 
 export default function Weather(props) {
   const [ready, setReady] = useState(false);
