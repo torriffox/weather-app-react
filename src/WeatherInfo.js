@@ -17,8 +17,8 @@ export default function WeatherInfo(props) {
       </ul>
       <div className="row mt-3">
         <div className="col-6">
-          <img
-            className="float-left"
+          <img 
+            className="float-left weather-main-img"
             src={props.data.img}
             alt="Mostly cloudy"
           />
@@ -26,7 +26,6 @@ export default function WeatherInfo(props) {
         </div>
         <div className="col-6">
           <ul>
-            <li>Feels like: {Math.round(props.data.feels_like)} °C</li>
             <li>Humidity: {props.data.humidity}%</li>
             <li>Wind: {Math.round(props.data.wind)} km/h</li>
           </ul>
