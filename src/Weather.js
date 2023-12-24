@@ -48,6 +48,7 @@ export default function Weather(props) {
           <div className="row">
             <div className="col-9">
               <input
+                id="enteredCity"
                 className="form-control"
                 type="search"
                 placeholder="Enter a city .."
@@ -57,6 +58,7 @@ export default function Weather(props) {
             </div>
             <div className="col-3">
               <input
+                id="searchButton"
                 className="btn btn-primary w-100"
                 type="submit"
                 value="Search"
